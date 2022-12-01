@@ -31,4 +31,4 @@ app.include_router(vote.router)
 
 @app.get("/")
 def get_posts():
-    return {'data': 'Hello World!!'}
+    return {'data': 'Hello World!! (Updated on 2022/12/01)'}
